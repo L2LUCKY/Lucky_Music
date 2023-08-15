@@ -84,7 +84,7 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/DabangTheBrand) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/status_video_0) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                     else:
                         msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
@@ -151,7 +151,7 @@ async def start_comm(client, message: Message, _):
 📎 **ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ:** [ᴠɪsɪᴛ ᴄʜᴀɴɴᴇʟ]({channellink})
 🔗 **ʟɪɴᴋ:** [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})
 
-**💞🌹ʀᴏᴍᴇᴏ ᴀʟᴡᴀʏs ᴏɴ ᴛᴏᴘ🌹💞**
+**💞🌹𝐋𝚞𝚌𝚔𝚢🅧 ᴀʟᴡᴀʏs ᴏɴ ᴛᴏᴘ🌹💞**
 
 || ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ [ʟᴜᴄᴋʏ❣️](https://t.me/itz_Lucky_Raja) 🥀 ||
 
