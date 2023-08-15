@@ -76,5 +76,8 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     return buttons
 
 
+InlineKeyboardButton(
+        text="🥰 ᴍᴏʀᴇ 🥰", url=f"https://t.me/ZiddiXBot"
+
 
 
