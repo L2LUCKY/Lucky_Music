@@ -10,31 +10,31 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥺 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ 🥺",
+                text="🥰 ᴏᴜʀ ɢʀᴏᴜᴩ 🥰",
                 url=f"https://t.me/+WDNH4yTCWe5jOTI1",
             )
         ],
         [
             InlineKeyboardButton(
-                text="❣️ʜᴇʟᴩ❣️",
+                text="❣️ ʜᴇʟᴩ ❣️",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="❤‍🔥sᴇᴛᴛɪɴɢs❤‍🔥", callback_data="settings_helper"
+                text="❤‍🔥 sᴇᴛᴛɪɴɢs ❤‍🔥", callback_data="settings_helper"
             ),
         ],
         [
             InlineKeyboardButton(
                 text="🔥 ᴏᴡɴᴇʀ 🔥", url=f"https://t.me/itz_Lucky_Raja"),
             InlineKeyboardButton(
-                text="😍 ᴄᴏ ᴏᴡɴᴇʀ 😍", url=f"https://t.me/Shivans_Raj_BrockenHart"
+                text="😍 ᴄᴏ ᴏᴡɴᴇʀ 😍", url=f"https://t.me/Sonu2860"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="❤️‍🔥Bᴀᴅsʜᴀʜ❤️‍🔥", user_id=OWNER),
+                text="❤️‍🔥 Bᴀᴅsʜᴀʜ ❤️‍🔥", user_id=OWNER),
             InlineKeyboardButton(
-                text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=config.SUPPORT_GROUP
+                text="🥰 sᴜᴩᴩᴏʀᴛ 🥰", url=config.SUPPORT_GROUP
             ),
         ],
      ]
@@ -51,20 +51,20 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="🥺ʜᴇʟᴩ🥺", callback_data="settings_back_helper"
+                text="🥺 ʜᴇʟᴩ 🥺", callback_data="settings_back_helper"
             ),
         ],
         [
             InlineKeyboardButton(
                 text="🔥 ᴏᴡɴᴇʀ 🔥", url=f"https://t.me/itz_Lucky_Raja"),
             InlineKeyboardButton(
-                text="😍 ᴄᴏ ᴏᴡɴᴇʀ 😍", url=f"https://t.me/Shivans_Raj_BrockenHart"
+                text="😍 ᴄᴏ ᴏᴡɴᴇʀ 😍", url=f"https://t.me/Sonu2860"
             ),
         ],
         [
-            InlineKeyboardButton(text="❤️‍🔥Bᴀᴅsʜᴀʜ❤️‍🔥", user_id=OWNER),
+            InlineKeyboardButton(text="❤️‍🔥 Bᴀᴅsʜᴀʜ ❤️‍🔥", user_id=OWNER),
             InlineKeyboardButton(
-                text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=config.SUPPORT_GROUP
+                text="🥰 sᴜᴩᴩᴏʀᴛ 🥰", url=config.SUPPORT_GROUP
             ),
         ],
         [
