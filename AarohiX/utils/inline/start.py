@@ -27,14 +27,14 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="❤️‍🔥 Bᴀᴅsʜᴀʜ ❤️‍🔥", url=f"https://t.me/Shivans_Raj_BrockenHart"),
             InlineKeyboardButton(
-                text="😍 ᴄᴏ ᴏᴡɴᴇʀ 😍", url=f"https://t.me/Sonu2860"
+                text="🥰 sᴜᴩᴩᴏʀᴛ 🥰", url=config.SUPPORT_GROUP
             ),
         ],
         [
             InlineKeyboardButton(
                 text="🔥 ᴏᴡɴᴇʀ 🔥", user_id=OWNER),
             InlineKeyboardButton(
-                text="🥰 sᴜᴩᴩᴏʀᴛ 🥰", url=config.SUPPORT_GROUP
+                text="😍 ᴄᴏ ᴏᴡɴᴇʀ 😍", url=f"https://t.me/Sonu2860"
             ),
         ],
      ]
@@ -58,13 +58,13 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="❤️‍🔥 Bᴀᴅsʜᴀʜ ❤️‍🔥", url=f"https://t.me/Shivans_Raj_BrockenHart"),
             InlineKeyboardButton(
-                text="😍 ᴄᴏ ᴏᴡɴᴇʀ 😍", url=f"https://t.me/Sonu2860"
+                text="🥰 sᴜᴩᴩᴏʀᴛ 🥰", url=config.SUPPORT_GROUP
             ),
         ],
         [
             InlineKeyboardButton(text="🔥 ᴏᴡɴᴇʀ 🔥", user_id=OWNER),
             InlineKeyboardButton(
-                text="🥰 sᴜᴩᴩᴏʀᴛ 🥰", url=config.SUPPORT_GROUP
+                text="😍 ᴄᴏ ᴏᴡɴᴇʀ 😍", url=f"https://t.me/Sonu2860"
             ),
         ],
         [
