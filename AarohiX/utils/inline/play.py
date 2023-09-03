@@ -43,7 +43,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text="❤️‍🔥Bᴀᴅsʜᴀʜ❤️‍🔥",
-                callback_data=f"https://t.me/Shivans_Raj_BrockenHart",
+                url=f"https://t.me/Shivans_Raj_BrockenHart",
             ),
             InlineKeyboardButton(
                 text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=config.SUPPORT_GROUP
@@ -142,7 +142,7 @@ def stream_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text="❤️‍🔥Bᴀᴅsʜᴀʜ❤️‍🔥",
-                callback_data=f"https://t.me/Shivans_Raj_BrockenHart",
+                url=f"https://t.me/Shivans_Raj_BrockenHart",
             ),
             InlineKeyboardButton(
                 text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=config.SUPPORT_GROUP
@@ -333,7 +333,7 @@ def queue_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text="❤️‍🔥Bᴀᴅsʜᴀʜ❤️‍🔥",
-                callback_data=f"https://t.me/Shivans_Raj_BrockenHart",
+                url=f"https://t.me/Shivans_Raj_BrockenHart",
             ),
             InlineKeyboardButton(
                 text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=config.SUPPORT_GROUP
