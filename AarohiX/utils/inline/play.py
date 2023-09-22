@@ -46,19 +46,20 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 url=f"https://t.me/Shivans_Raj_BrockenHart",
             ),
             InlineKeyboardButton(
-                text="👸ǫᴜᴇᴇɴ👸", url=config.SUPPORT_GROUP
+                text="👸Qᴜᴇᴇɴ👸", url=config.SUPPORT_GROUP
             ),
         ],
         [
            InlineKeyboardButton(
-                text="🔥 ᴏᴡɴᴇʀ 🔥", user_id=OWNER),
+                text="🔥Oᴡɴᴇʀ🔥", url=f"https://t.me/itz_Lucky_Raja",
+            ),
            InlineKeyboardButton(
-                text="😍ᴄᴏ ᴏᴡɴᴇʀ😍", url=f"https://t.me/Sonu2860",
+                text="😍Cᴏ Oᴡɴᴇʀ😍", url=f"https://t.me/Sonu2860",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🥺ᴄʟᴏsᴇ🥺", callback_data="close"
+                text="🥺Cʟᴏsᴇ🥺", callback_data="close"
             )
         ],
     ]
@@ -103,17 +104,18 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="🔥 ᴏᴡɴᴇʀ 🔥", user_id=OWNER),
+                text="🔥Oᴡɴᴇʀ🔥", url=f"https://t.me/itz_Lucky_Raja",
+            ),
            InlineKeyboardButton(
-                text="😍ᴄᴏ ᴏᴡɴᴇʀ😍", url=f"https://t.me/Sonu2860",
+                text="😍Cᴏ Oᴡɴᴇʀ😍", url=f"https://t.me/Sonu2860",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="👸ǫᴜᴇᴇɴ👸", url=config.SUPPORT_GROUP
+                text="👸Qᴜᴇᴇɴ👸", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="🥺ᴄʟᴏsᴇ🥺", callback_data="close"
+                text="🥺Cʟᴏsᴇ🥺", callback_data="close"
             )
         ],
     ]
@@ -143,19 +145,20 @@ def stream_markup(_, videoid, chat_id):
                 url=f"https://t.me/Shivans_Raj_BrockenHart",
             ),
             InlineKeyboardButton(
-                text="👸ǫᴜᴇᴇɴ👸", url=config.SUPPORT_GROUP
+                text="👸Qᴜᴇᴇɴ👸", url=config.SUPPORT_GROUP
             ),
         ],
         [
            InlineKeyboardButton(
-                text="🔥 ᴏᴡɴᴇʀ 🔥", user_id=OWNER),
+                text="🔥Oᴡɴᴇʀ🔥", url=f"https://t.me/itz_Lucky_Raja",
+            ),
            InlineKeyboardButton(
-                text="😍ᴄᴏ ᴏᴡɴᴇʀ😍", url=f"https://t.me/Sonu2860",
+                text="😍Cᴏ Oᴡɴᴇʀ😍", url=f"https://t.me/Sonu2860",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🥺ᴄʟᴏsᴇ🥺", callback_data="close"
+                text="🥺Cʟᴏsᴇ🥺", callback_data="close"
             )
         ],
     ]
@@ -181,17 +184,18 @@ def telegram_markup(_, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="🔥 ᴏᴡɴᴇʀ 🔥", user_id=OWNER),
+                text="🔥Oᴡɴᴇʀ🔥", url=f"https://t.me/itz_Lucky_Raja",
+            ),
            InlineKeyboardButton(
-                text="😍ᴄᴏ ᴏᴡɴᴇʀ😍", url=f"https://t.me/Sonu2860",
+                text="😍Cᴏ Oᴡɴᴇʀ😍", url=f"https://t.me/Sonu2860",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="👸ǫᴜᴇᴇɴ👸", url=config.SUPPORT_GROUP
+                text="👸Qᴜᴇᴇɴ👸", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="🥺ᴄʟᴏsᴇ🥺", callback_data="close"
+                text="🥺Cʟᴏsᴇ🥺", callback_data="close"
             )
         ],
     ]
@@ -253,7 +257,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🖤 ʟɪᴠᴇ 🖤",
+                text="🖤 Lɪᴠᴇ 🖤",
                 callback_data=f"LiveStream {videoid}|{user_id}|{mode}|{channel}|{fplay}",
             ),
         ],
@@ -332,19 +336,20 @@ def queue_markup(_, videoid, chat_id):
                 url=f"https://t.me/Shivans_Raj_BrockenHart",
             ),
             InlineKeyboardButton(
-                text="👸ǫᴜᴇᴇɴ👸", url=config.SUPPORT_GROUP
+                text="👸Qᴜᴇᴇɴ👸", url=config.SUPPORT_GROUP
             )
         ],
         [
            InlineKeyboardButton(
-                text="🔥 ᴏᴡɴᴇʀ 🔥", user_id=OWNER),
+                text="🔥Oᴡɴᴇʀ🔥", url=f"https://t.me/itz_Lucky_Raja",
+            ),
            InlineKeyboardButton(
-                text="😍ᴄᴏ ᴏᴡɴᴇʀ😍", url=f"https://t.me/Sonu2860",
+                text="😍Cᴏ Oᴡɴᴇʀ😍", url=f"https://t.me/Sonu2860",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🥺ᴄʟᴏsᴇ🥺", callback_data="close"
+                text="🥺Cʟᴏsᴇ🥺", callback_data="close"
             )
         ],
     ]
