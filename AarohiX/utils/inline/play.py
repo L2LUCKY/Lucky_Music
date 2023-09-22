@@ -46,7 +46,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 url=f"https://t.me/Shivans_Raj_BrockenHart",
             ),
             InlineKeyboardButton(
-                text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=config.SUPPORT_GROUP
+                text="👸ǫᴜᴇᴇɴ👸", url=config.SUPPORT_GROUP
             ),
         ],
         [
@@ -112,7 +112,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=config.SUPPORT_GROUP
+                text="👸ǫᴜᴇᴇɴ👸", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
                 text="🥺ᴄʟᴏsᴇ🥺", callback_data="close"
@@ -145,7 +145,7 @@ def stream_markup(_, videoid, chat_id):
                 url=f"https://t.me/Shivans_Raj_BrockenHart",
             ),
             InlineKeyboardButton(
-                text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=config.SUPPORT_GROUP
+                text="👸ǫᴜᴇᴇɴ👸", url=config.SUPPORT_GROUP
             ),
         ],
         [
@@ -192,7 +192,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=config.SUPPORT_GROUP
+                text="👸ǫᴜᴇᴇɴ👸", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
                 text="🥺ᴄʟᴏsᴇ🥺", callback_data="close"
@@ -336,7 +336,7 @@ def queue_markup(_, videoid, chat_id):
                 url=f"https://t.me/Shivans_Raj_BrockenHart",
             ),
             InlineKeyboardButton(
-                text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=config.SUPPORT_GROUP
+                text="👸ǫᴜᴇᴇɴ👸", url=config.SUPPORT_GROUP
             )
         ],
         [
