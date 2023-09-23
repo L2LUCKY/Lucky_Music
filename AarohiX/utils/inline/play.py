@@ -1,22 +1,32 @@
 from pyrogram.types import InlineKeyboardButton
+from config import SUPPORT_GROUP, SUPPORT_CHANNEL
+import random
 
-import config
-from AarohiX.utils import time_to_sec
+## After Edits with Timer Bar
+
+
+selections = [
+    "💘💕💞❤️💗❣️💔❤️‍🩹❤️‍🔥",
+    "💕💞❤️💗❣️💔❤️‍🩹❤️‍🔥💘",
+    "💞❤️💗❣️💔❤️‍🩹❤️‍🔥💘💕",
+    "❤️💗❣️💔❤️‍🩹❤️‍🔥💘💕💞",
+    "💗❣️💔❤️‍🩹❤️‍🔥💘💕💞❤️",
+    "❣️💔❤️‍🩹❤️‍🔥💘💕💞❤️💗",
+    "💔❤️‍🩹❤️‍🔥💘💕💞❤️💗❣️",
+    "❤️‍🩹❤️‍🔥💘💕💞❤️💗❣️💔",
+    "❤️‍🔥💘💕💞❤️💗❣️💔❤️‍🩹",
+    "💘💕💞❤️💗❣️💔❤️‍🩹❤️‍🔥",
+    "💕💞❤️💗❣️💔❤️‍🩹❤️‍🔥💘",
+    "💞❤️💗❣️💔❤️‍🩹❤️‍🔥💘💕",
+    "❤️💗❣️💔❤️‍🩹❤️‍🔥💘💕💞",
+]
+
+
+## After Edits with Timer Bar
 
 
 def stream_markup_timer(_, videoid, chat_id, played, dur):
-    played_sec = time_to_sec(played)
-    total_sec = time_to_sec(dur)
-
-    x, y = str(round(played_sec/total_sec,1)).split(".")
-    pos = int(y)
-
-    line = "━"
-    circle = "💔"
-
-    bar = line*(pos-1)
-    bar += circle
-    bar += line*(10-len(bar))
+    bar = random.choice(selections)
 
     buttons = [
         [
