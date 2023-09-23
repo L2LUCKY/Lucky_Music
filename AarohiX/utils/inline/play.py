@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 import config
-from AarohiX.utils import time_to_sec 
+from AarohiX.utils import random 
 
 ## After Edits with Timer Bar
 
