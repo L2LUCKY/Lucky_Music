@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 import config
-from AarohiX.utils import time_to_sec 
+from AarohiX.utils import line
 
 ## After Edits with Timer Bar
 
@@ -27,7 +27,7 @@ selections = [
 
 
 def stream_markup_timer(_, videoid, chat_id, played, dur):
-    bar = time_to_sec.choice(selections)
+    bar = line.choice(selections)
 
     buttons = [
         [
