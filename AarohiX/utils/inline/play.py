@@ -1,6 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
-from config import SUPPORT_GROUP, SUPPORT_CHANNEL
-import random
+
+import config
+from AarohiX.utils import random 
 
 ## After Edits with Timer Bar
 
