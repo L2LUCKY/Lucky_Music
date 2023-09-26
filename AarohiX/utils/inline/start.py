@@ -20,14 +20,14 @@ url=config.SUPPORT_GROUP
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="❤‍🔥 Sᴇᴛᴛɪɴɢs ❤‍🔥", callback_data="settings_helper"
+                text="😂 Sᴇᴛᴛɪɴɢs 😂", callback_data="settings_helper"
             ),
         ],
         [
             InlineKeyboardButton(
                 text="❤️‍🔥 Bᴀᴅsʜᴀʜ ❤️‍🔥", url=f"https://t.me/Shivans_Raj_BrockenHart"),
             InlineKeyboardButton(
-                text="🥰 Sᴜᴩᴩᴏʀᴛ 🥰", url=f"https://t.me/JAANUQUEEN014124"),
+                text="👸 Qᴜᴇᴇɴ 👸", url=f"https://t.me/JAANUQUEEN014124"),
             ),
         ],
         [
@@ -58,7 +58,7 @@ url=config.SUPPORT_GROUP
             InlineKeyboardButton(
                 text="❤️‍🔥 Bᴀᴅsʜᴀʜ ❤️‍🔥", url=f"https://t.me/Shivans_Raj_BrockenHart"),
             InlineKeyboardButton(
-                text="🥰 Sᴜᴩᴩᴏʀᴛ 🥰", url=f"https://t.me/JAANUQUEEN014124"),
+                text="👸 Qᴜᴇᴇɴ 👸", url=f"https://t.me/JAANUQUEEN014124"),
             ),
         ],
         [
@@ -69,7 +69,7 @@ url=config.SUPPORT_GROUP
         ],
         [
             InlineKeyboardButton(
-                    text="😂 Mᴏʀᴇ 😂", url=f"https://t.me/ZiddiXBot"
+                    text="🥹 sᴛᴜᴅʏ ɢʀᴏᴜᴘ  🥹", url=f"https://t.me/+LHcxarl1geQyYWM1"
             ),
            ],
      ]
