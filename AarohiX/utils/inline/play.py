@@ -44,6 +44,9 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             InlineKeyboardButton(
                 text="💞", callback_data=f"ADMIN Pause|{chat_id}"
             ),
+            InlineKeyboardButton( 
+                text="💖", callback_data=f"add_playlist {videoid}"
+            ),
             InlineKeyboardButton(
                 text="❤️‍🔥", callback_data=f"ADMIN Skip|{chat_id}"
             ),
@@ -106,6 +109,9 @@ def telegram_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(
                 text="💞", callback_data=f"ADMIN Pause|{chat_id}"
             ),
+            InlineKeyboardButton( 
+                text="💖", callback_data=f"add_playlist {videoid}"
+            ),
             InlineKeyboardButton(
                 text="❤️‍🔥", callback_data=f"ADMIN Skip|{chat_id}"
             ),
@@ -142,6 +148,9 @@ def stream_markup(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text="💞", callback_data=f"ADMIN Pause|{chat_id}"
+            ),
+            InlineKeyboardButton( 
+                text="💖", callback_data=f"add_playlist {videoid}"
             ),
             InlineKeyboardButton(
                 text="❤️‍🔥", callback_data=f"ADMIN Skip|{chat_id}"
@@ -185,6 +194,9 @@ def telegram_markup(_, chat_id):
             ),
             InlineKeyboardButton(
                 text="💞", callback_data=f"ADMIN Pause|{chat_id}"
+            ),
+            InlineKeyboardButton( 
+                text="💖", callback_data=f"add_playlist {videoid}"
             ),
             InlineKeyboardButton(
                 text="❤️‍🔥", callback_data=f"ADMIN Skip|{chat_id}"
@@ -335,6 +347,9 @@ def queue_markup(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text="💞", callback_data=f"ADMIN Pause|{chat_id}"
+            ),
+            InlineKeyboardButton( 
+                text="💖", callback_data=f"add_playlist {videoid}"
             ),
             InlineKeyboardButton(
                 text="❤️‍🔥", callback_data=f"ADMIN Skip|{chat_id}"
