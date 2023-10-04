@@ -27,7 +27,8 @@ url=config.SUPPORT_GROUP
             InlineKeyboardButton(
                 text="❤️‍🔥 Bᴀᴅsʜᴀʜ ❤️‍🔥", url=f"https://t.me/Shivans_Raj_BrockenHart"),
             InlineKeyboardButton(
-                text="👸 Qᴜᴇᴇɴ 👸", user_id=6141865652),
+                text="👸 Qᴜᴇᴇɴ 👸", url=f"https://t.me/+LHcxarl1geQyYWM1"
+             ),
         ],
         [
             InlineKeyboardButton(
@@ -57,7 +58,8 @@ url=config.SUPPORT_GROUP
             InlineKeyboardButton(
                 text="❤️‍🔥 Bᴀᴅsʜᴀʜ ❤️‍🔥", url=f"https://t.me/Shivans_Raj_BrockenHart"),
             InlineKeyboardButton(
-                text="👸 Qᴜᴇᴇɴ 👸", user_id=6141865652),
+                text="👸 Qᴜᴇᴇɴ 👸", url=f"https://t.me/+LHcxarl1geQyYWM1"
+            ),
         ],
         [
             InlineKeyboardButton(text="🔥 Oᴡɴᴇʀ 🔥", user_id=OWNER),
