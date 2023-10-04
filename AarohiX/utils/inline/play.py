@@ -165,7 +165,7 @@ def stream_markup(_, videoid, chat_id):
                 url=f"https://t.me/Shivans_Raj_BrockenHart",
             ),
             InlineKeyboardButton(
-                text="👸Qᴜᴇᴇɴ👸", url=f"https://t.me/+LHcxarl1geQyYWM1",
+                text="👸Qᴜᴇᴇɴ👸", url=f"https://t.me/user_id=6141865652",
             ),
         ],
         [
@@ -215,7 +215,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="👸Qᴜᴇᴇɴ👸", url=f"https://t.me/+LHcxarl1geQyYWM1",
+                text="👸Qᴜᴇᴇɴ👸", url=f"https://t.me/user_id=6141865652",
             ),
         ],
         [
@@ -364,7 +364,7 @@ def queue_markup(_, videoid, chat_id):
                 url=f"https://t.me/Shivans_Raj_BrockenHart",
             ),
             InlineKeyboardButton(
-                text="👸Qᴜᴇᴇɴ👸", url=f"https://t.me/+LHcxarl1geQyYWM1",
+                text="👸Qᴜᴇᴇɴ👸", url=f"https://t.me/user_id=6141865652",
             ),
         ],
         [
