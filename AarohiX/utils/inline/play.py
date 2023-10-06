@@ -60,7 +60,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 url=f"https://t.me/Shivans_Raj_BrockenHart",
             ),
             InlineKeyboardButton(
-                text="👸Qᴜᴇᴇɴ👸", url=f"https://t.me/+LHcxarl1geQyYWM1",
+                text="👸Qᴜᴇᴇɴ👸", url=f"https://t.me/Lucky_Music_World",
             ),
         ],
         [
@@ -88,7 +88,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
     pos = int(y)
 
     line = "—"
-    circle = "◉"
+    circle = "💖"
 
     bar = line*(pos-1)
     bar += circle
@@ -109,9 +109,6 @@ def telegram_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(
                 text="💞", callback_data=f"ADMIN Pause|{chat_id}"
             ),
-            InlineKeyboardButton( 
-                text="💖", callback_data=f"add_playlist {videoid}"
-            ),
             InlineKeyboardButton(
                 text="❤️‍🔥", callback_data=f"ADMIN Skip|{chat_id}"
             ),
@@ -129,7 +126,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="👸Qᴜᴇᴇɴ👸", url=f"https://t.me/+LHcxarl1geQyYWM1",
+                text="👸Qᴜᴇᴇɴ👸", url=f"https://t.me/Lucky_Music_World",
             ),
             InlineKeyboardButton(
                 text="🥺Cʟᴏsᴇ🥺", callback_data="close"
@@ -149,9 +146,6 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(
                 text="💞", callback_data=f"ADMIN Pause|{chat_id}"
             ),
-            InlineKeyboardButton( 
-                text="💖", callback_data=f"add_playlist {videoid}"
-            ),
             InlineKeyboardButton(
                 text="❤️‍🔥", callback_data=f"ADMIN Skip|{chat_id}"
             ),
@@ -165,7 +159,7 @@ def stream_markup(_, videoid, chat_id):
                 url=f"https://t.me/Shivans_Raj_BrockenHart",
             ),
             InlineKeyboardButton(
-                text="👸Qᴜᴇᴇɴ👸", url=f"https://t.me/+LHcxarl1geQyYWM1",
+                text="👸Qᴜᴇᴇɴ👸", url=f"https://t.me/Lucky_Music_World",
             ),
         ],
         [
@@ -195,9 +189,6 @@ def telegram_markup(_, chat_id):
             InlineKeyboardButton(
                 text="💞", callback_data=f"ADMIN Pause|{chat_id}"
             ),
-            InlineKeyboardButton( 
-                text="💖", callback_data=f"add_playlist {videoid}"
-            ),
             InlineKeyboardButton(
                 text="❤️‍🔥", callback_data=f"ADMIN Skip|{chat_id}"
             ),
@@ -215,7 +206,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="👸Qᴜᴇᴇɴ👸", url=f"https://t.me/+LHcxarl1geQyYWM1",
+                text="👸Qᴜᴇᴇɴ👸", url=f"https://t.me/Lucky_Music_World",
             ),
         ],
         [
@@ -364,7 +355,7 @@ def queue_markup(_, videoid, chat_id):
                 url=f"https://t.me/Shivans_Raj_BrockenHart",
             ),
             InlineKeyboardButton(
-                text="👸Qᴜᴇᴇɴ👸", url=f"https://t.me/+LHcxarl1geQyYWM1",
+                text="👸Qᴜᴇᴇɴ👸", url=f"https://t.me/Lucky_Music_World",
             ),
         ],
         [
