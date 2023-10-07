@@ -68,7 +68,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="🔥Oᴡɴᴇʀ🔥", url=f"https://t.me/itz_Lucky_Raja",
             ),
            InlineKeyboardButton(
-                text="😍Cᴏ Oᴡɴᴇʀ😍", url=f"https://t.me/MR_Manu_Tiwari",
+                text="😍Cᴏ Oᴡɴᴇʀ😍", url=f"https://t.me/MR_RAJA_ROY",
             ),
         ],
         [
@@ -121,7 +121,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="🔥Oᴡɴᴇʀ🔥", url=f"https://t.me/itz_Lucky_Raja",
             ),
            InlineKeyboardButton(
-                text="😍Cᴏ Oᴡɴᴇʀ😍", url=f"https://t.me/MR_Manu_Tiwari",
+                text="😍Cᴏ Oᴡɴᴇʀ😍", url=f"https://t.me/MR_RAJA_ROY",
             ),
         ],
         [
@@ -167,7 +167,7 @@ def stream_markup(_, videoid, chat_id):
                 text="🔥Oᴡɴᴇʀ🔥", url=f"https://t.me/itz_Lucky_Raja",
             ),
            InlineKeyboardButton(
-                text="😍Cᴏ Oᴡɴᴇʀ😍", url=f"https://t.me/MR_Manu_Tiwari",
+                text="😍Cᴏ Oᴡɴᴇʀ😍", url=f"https://t.me/MR_RAJA_ROY",
             ),
         ],
         [
@@ -201,7 +201,7 @@ def telegram_markup(_, chat_id):
                 text="🔥Oᴡɴᴇʀ🔥", url=f"https://t.me/itz_Lucky_Raja",
             ),
            InlineKeyboardButton(
-                text="😍Cᴏ Oᴡɴᴇʀ😍", url=f"https://t.me/MR_Manu_Tiwari",
+                text="😍Cᴏ Oᴡɴᴇʀ😍", url=f"https://t.me/MR_RAJA_ROY",
             ),
         ],
         [
@@ -363,7 +363,7 @@ def queue_markup(_, videoid, chat_id):
                 text="🔥Oᴡɴᴇʀ🔥", url=f"https://t.me/itz_Lucky_Raja",
             ),
            InlineKeyboardButton(
-                text="😍Cᴏ Oᴡɴᴇʀ😍", url=f"https://t.me/MR_Manu_Tiwari",
+                text="😍Cᴏ Oᴡɴᴇʀ😍", url=f"https://t.me/MR_RAJA_ROY",
             ),
         ],
         [
