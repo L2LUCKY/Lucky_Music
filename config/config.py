@@ -7,14 +7,14 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "29497924"))
-API_HASH = getenv("API_HASH", "ae94fc1fe578b46ef09412c529e7f73d")
+API_ID = int(getenv("API_ID", "28178139"))
+API_HASH = getenv("API_HASH", "85172511f45230b7f8bb304f5ed8e6d8")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://bsdk:betichod@cluster0.fgj1r9z.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001952304003"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐋𝚞𝚌𝚔𝚢🅧𝐌𝚞𝚜𝚒𝚌")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001845455124"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐋𝚄𝙲𝙺𝚈 𝐌𝚄𝚂𝙸𝙲 𝐁𝙾𝚃")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5247304559").split()))
 
@@ -26,7 +26,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ZiddiXBot")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+WDNH4yTCWe5jOTI1")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Lucky_Music_World")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
  
