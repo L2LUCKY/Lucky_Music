@@ -10,31 +10,31 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥰 Oᴜʀ Gʀᴏᴜᴩ 🥰",
+                text="🥰 𝐎ᴜʀ 𝐆ʀᴏᴜᴩ 🥰",
 url=config.SUPPORT_GROUP
             )
         ],
         [
             InlineKeyboardButton(
-                text="❣️ Hᴇʟᴩ ❣️",
+                text="🥹 𝐇ᴇʟᴩ 🥹",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="😂 Sᴇᴛᴛɪɴɢs 😂", callback_data="settings_helper"
+                text="😂 𝐒ᴇᴛᴛɪɴɢ𝐬 😂", callback_data="settings_helper"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="❤️‍🔥 Bᴀᴅsʜᴀʜ ❤️‍🔥", url=f"https://t.me/Shivans_Raj_BrockenHart"),
+                text="❣️ 𝐁ᴀᴅ𝗌ʜᴀʜ ❣️", url=f"https://t.me/Shivans_Raj_BrockenHart"),
             InlineKeyboardButton(
-                text="👸 Qᴜᴇᴇɴ 👸", url=f"https://t.me/Lucky_Music_World"
+                text="❤️ 𝐁ᴇɢᴀᴍ ❤️", url=f"https://t.me/Ziddi_Rani"
              ),
         ],
         [
             InlineKeyboardButton(
-                text="🔥 Oᴡɴᴇʀ 🔥", user_id=OWNER),
+                text="💖 𝐎ᴡɴᴇʀ 💖", user_id=OWNER),
             InlineKeyboardButton(
-                text="😍 Cᴏ Oᴡɴᴇʀ 😍", url=f"https://t.me/MR_RAJA_ROY"
+                text="💝 𝐂ᴏ 𝐎ᴡɴᴇʀ 💝", url=f"https://t.me/MR_RAJA_ROY"
             ),
         ],
      ]
@@ -45,31 +45,31 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥰 Oᴜʀ Gʀᴏᴜᴩ 🥰",
+                text="🥰 𝐎ᴜʀ 𝐆ʀᴏᴜᴩ 🥰",
 url=config.SUPPORT_GROUP
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🥺 Hᴇʟᴩ 🥺", callback_data="settings_back_helper"
+                text="🥹 𝐇ᴇʟᴩ 🥹", callback_data="settings_back_helper"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="❤️‍🔥 Bᴀᴅsʜᴀʜ ❤️‍🔥", url=f"https://t.me/Shivans_Raj_BrockenHart"),
+                text="❣️ 𝐁ᴀᴅ𝗌ʜᴀʜ ❣️", url=f"https://t.me/Shivans_Raj_BrockenHart"),
             InlineKeyboardButton(
-                text="👸 Qᴜᴇᴇɴ 👸", url=f"https://t.me/Lucky_Music_World"
+                text="❤️ 𝐁ᴇɢᴀᴍ ❤️", url=f"https://t.me/Ziddi_Rani"
             ),
         ],
         [
-            InlineKeyboardButton(text="🔥 Oᴡɴᴇʀ 🔥", user_id=OWNER),
+            InlineKeyboardButton(text="💖 𝐎ᴡɴᴇʀ 💖", user_id=OWNER),
             InlineKeyboardButton(
-                text="😍 Cᴏ Oᴡɴᴇʀ 😍", url=f"https://t.me/MR_RAJA_ROY"
+                text="💝 𝐂ᴏ 𝐎ᴡɴᴇʀ 💝", url=f"https://t.me/MR_RAJA_ROY"
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="🥹 sᴛᴜᴅʏ ɢʀᴏᴜᴘ  🥹", url=f"https://t.me/Lucky_Music_World"
+                    text="🌹 𝐒ᴛᴜᴅʏ 𝐆ʀᴏᴜᴘ  🌹", url=f"https://t.me/Study_House_Family"
             ),
            ],
      ]
