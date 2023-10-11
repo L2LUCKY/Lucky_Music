@@ -39,9 +39,10 @@ async def start_comm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgUAAx0CX6C1HAABBN6GZRufBQn7-Q6VAsfT2Ig-UomO4gsAAiAJAALYlPhVFQEQwkymjlQeBA")
-            await message.reply_sticker("CAACAgEAAx0CcOKqzQACActlG529byImw3X3TDLqHtQwpJqs8AACwwEAAhMkAAFHZN3tryvTAAHzMAQ")
-            await message.reply_sticker("CAACAgUAAx0CcOKqzQACAcllG53pRoO8430kqGUiM-ar9yTYNQAC_ggAAiumiVU8yJ8O1B1GHzAE")
+            await message.reply_sticker("CAACAgUAAx0CcOKqzQACAeBlJp-821gblhUi54MX4B3F2g0KtwACkAUAAiVOwVWgaa32_t8P_TAE")
+            await message.reply_sticker("CAACAgUAAx0CcOKqzQACAehlJqD4yDz7qucVwuR0X7TQtHX7NgACxgcAAssYIFbZb9xE7MtzxDAE")
+            await message.reply_sticker("CAACAgUAAx0CcOKqzQACAd9lJp-dkr1W2UuhMBic-9mVvz5YBwAC6gQAAqZYwVVYm-x5eRGo9TAE")
+            await message.reply_sticker("CAACAgUAAx0CcOKqzQACAdllJpGxa7_tjY7ZAxvYDmfl5fLWiwACPQcAAqpb4Vdlmmq3QU6nNjAE")
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
                        caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
@@ -194,9 +195,9 @@ async def start_comm(client, message: Message, _):
         out = private_panel(_, app.username, OWNER)
         if config.START_IMG_URL:
             try:
-                await message.reply_sticker("CAACAgUAAx0CX6C1HAABBN6GZRufBQn7-Q6VAsfT2Ig-UomO4gsAAiAJAALYlPhVFQEQwkymjlQeBA")
-                await message.reply_sticker("CAACAgEAAx0CcOKqzQACActlG529byImw3X3TDLqHtQwpJqs8AACwwEAAhMkAAFHZN3tryvTAAHzMAQ")
-                await message.reply_sticker("CAACAgUAAx0CcOKqzQACAcllG53pRoO8430kqGUiM-ar9yTYNQAC_ggAAiumiVU8yJ8O1B1GHzAE")
+                await message.reply_sticker("CAACAgUAAx0CcOKqzQACAeBlJp-821gblhUi54MX4B3F2g0KtwACkAUAAiVOwVWgaa32_t8P_TAE")
+                await message.reply_sticker("CAACAgUAAx0CcOKqzQACAehlJqD4yDz7qucVwuR0X7TQtHX7NgACxgcAAssYIFbZb9xE7MtzxDAE")
+                await message.reply_sticker("CAACAgUAAx0CcOKqzQACAd9lJp-dkr1W2UuhMBic-9mVvz5YBwAC6gQAAqZYwVVYm-x5eRGo9TAE")
                 await message.reply_photo(
                     photo=config.START_IMG_URL,
                     caption=_["start_2"].format(
