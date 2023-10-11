@@ -25,9 +25,9 @@ url=config.SUPPORT_GROUP
         ],
         [
             InlineKeyboardButton(
-                text="❣️ 𝐁ᴀᴅ𝗌ʜᴀʜ ❣️", url=f"https://t.me/Shivans_Raj_BrockenHart"),
+                text="❣️ 𝐀𝐀𝐑𝐔 ❣️", url=f"https://t.me/Notanki_aaru"),
             InlineKeyboardButton(
-                text="❤️ 𝐁ᴇɢᴀᴍ ❤️", url=f"https://t.me/Ziddi_Rani"
+                text="❤️ 𝐇ᴇᴀʀᴛ♡𝐇ᴀᴄᴋᴇʀ ❤️", url=f"https://t.me/Hacker_girl59"
              ),
         ],
         [
@@ -56,9 +56,9 @@ url=config.SUPPORT_GROUP
         ],
         [
             InlineKeyboardButton(
-                text="❣️ 𝐁ᴀᴅ𝗌ʜᴀʜ ❣️", url=f"https://t.me/Shivans_Raj_BrockenHart"),
+                text="❣️ 𝐀𝐀𝐑𝐔 ❣️", url=f"https://t.me/Notanki_aaru"),
             InlineKeyboardButton(
-                text="❤️ 𝐁ᴇɢᴀᴍ ❤️", url=f"https://t.me/Ziddi_Rani"
+                text="❤️ 𝐇ᴇᴀʀᴛ♡𝐇ᴀᴄᴋᴇʀ ❤️", url=f"https://t.me/Hacker_girl59"
             ),
         ],
         [
