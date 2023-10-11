@@ -56,19 +56,18 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="❣️𝐀𝐀𝐑𝐔❣️",
-                url=f"https://t.me/Notanki_aaru",
+                text="💖𝐎ᴡɴᴇʀ💖", url=f"https://t.me/itz_Lucky_Raja",
             ),
             InlineKeyboardButton(
-                text="❤️𝐇ᴇᴀʀᴛ♡𝐇ᴀᴄᴋᴇʀ❤️", url=f"https://t.me/Hacker_girl59",
+                text="💝𝐂ᴏ 𝐎ᴡɴᴇʀ💝", url=f"https://t.me/MR_RAJA_ROY",
             ),
         ],
         [
            InlineKeyboardButton(
-                text="💖𝐎ᴡɴᴇʀ💖", url=f"https://t.me/itz_Lucky_Raja",
+                text="❣️𝐀𝐀𝐑𝐔❣️",               url=f"https://t.me/Notanki_aaru",
             ),
            InlineKeyboardButton(
-                text="💝𝐂ᴏ 𝐎ᴡɴᴇʀ💝", url=f"https://t.me/MR_RAJA_ROY",
+                text="❤️𝐇ᴇᴀʀᴛ♡𝐇ᴀᴄᴋᴇʀ❤️", url=f"https://t.me/Hacker_girl59",
             ),
         ],
         [
@@ -128,6 +127,11 @@ def telegram_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(
                 text="❤️𝐇ᴇᴀʀᴛ♡𝐇ᴀᴄᴋᴇʀ❤️", url=f"https://t.me/Hacker_girl59",
             ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="💝𝐂ᴏ 𝐎ᴡɴᴇʀ💝", url=f"https://t.me/MR_RAJA_ROY",
+            ),
             InlineKeyboardButton(
                 text="🌹𝐂ʟᴏ𝐬ᴇ🌹", callback_data="close"
             )
@@ -155,19 +159,18 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="❣️𝐀𝐀𝐑𝐔❣️",
-                url=f"https://t.me/Notanki_aaru",
+                text="💖𝐎ᴡɴᴇʀ💖", url=f"https://t.me/itz_Lucky_Raja",
             ),
             InlineKeyboardButton(
-                text="❤️𝐇ᴇᴀʀᴛ♡𝐇ᴀᴄᴋᴇʀ❤️", url=f"https://t.me/Hacker_girl59",
+                text="💝𝐂ᴏ 𝐎ᴡɴᴇʀ💝", url=f"https://t.me/MR_RAJA_ROY",
             ),
         ],
         [
            InlineKeyboardButton(
-                text="💖𝐎ᴡɴᴇʀ💖", url=f"https://t.me/itz_Lucky_Raja",
+                text="❣️𝐀𝐀𝐑𝐔❣️",               url=f"https://t.me/Notanki_aaru",
             ),
            InlineKeyboardButton(
-                text="💝𝐂ᴏ 𝐎ᴡɴᴇʀ💝", url=f"https://t.me/MR_RAJA_ROY",
+                text="❤️𝐇ᴇᴀʀᴛ♡𝐇ᴀᴄᴋᴇʀ❤️", url=f"https://t.me/Hacker_girl59",
             ),
         ],
         [
@@ -213,8 +216,6 @@ def telegram_markup(_, chat_id):
             InlineKeyboardButton(
                 text="💝𝐂ᴏ 𝐎ᴡɴᴇʀ💝", url=f"https://t.me/MR_RAJA_ROY",
             ),
-        ],
-        [
             InlineKeyboardButton(
                 text="🌹𝐂ʟᴏ𝐬ᴇ🌹", callback_data="close"
             )
@@ -356,19 +357,18 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="❣️𝐀𝐀𝐑𝐔❣️",
-                url=f"https://t.me/Notanki_aaru",
+                text="💖𝐎ᴡɴᴇʀ💖", url=f"https://t.me/itz_Lucky_Raja",
             ),
             InlineKeyboardButton(
-                text="❤️𝐇ᴇᴀʀᴛ♡𝐇ᴀᴄᴋᴇʀ❤️", url=f"https://t.me/Hacker_girl59",
+                text="💝𝐂ᴏ 𝐎ᴡɴᴇʀ💝", url=f"https://t.me/MR_RAJA_ROY",
             ),
         ],
         [
            InlineKeyboardButton(
-                text="💖𝐎ᴡɴᴇʀ💖", url=f"https://t.me/itz_Lucky_Raja",
+                text="❣️𝐀𝐀𝐑𝐔❣️",               url=f"https://t.me/Notanki_aaru",
             ),
            InlineKeyboardButton(
-                text="💝𝐂ᴏ 𝐎ᴡɴᴇʀ💝", url=f"https://t.me/MR_RAJA_ROY",
+                text="❤️𝐇ᴇᴀʀᴛ♡𝐇ᴀᴄᴋᴇʀ❤️", url=f"https://t.me/Hacker_girl59",
             ),
         ],
         [
