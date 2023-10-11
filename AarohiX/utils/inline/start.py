@@ -25,16 +25,16 @@ url=config.SUPPORT_GROUP
         ],
         [
             InlineKeyboardButton(
-                text="❣️ 𝐀𝐀𝐑𝐔 ❣️", url=f"https://t.me/Notanki_aaru"),
+                text="💖 𝐎ᴡɴᴇʀ 💖", user_id=OWNER),
             InlineKeyboardButton(
-                text="❤️ 𝐇ᴇᴀʀᴛ♡𝐇ᴀᴄᴋᴇʀ ❤️", url=f"https://t.me/Hacker_girl59"
+                text="💝 𝐂ᴏ 𝐎ᴡɴᴇʀ 💝", url=f"https://t.me/MR_RAJA_ROY"
              ),
         ],
         [
             InlineKeyboardButton(
-                text="💖 𝐎ᴡɴᴇʀ 💖", user_id=OWNER),
+                text="❣️ 𝐀𝐀𝐑𝐔 ❣️", url=f"https://t.me/Notanki_aaru"),
             InlineKeyboardButton(
-                text="💝 𝐂ᴏ 𝐎ᴡɴᴇʀ 💝", url=f"https://t.me/MR_RAJA_ROY"
+                text="❤️ 𝐇ᴇᴀʀᴛ♡𝐇ᴀᴄᴋᴇʀ ❤️", url=f"https://t.me/Hacker_girl59"
             ),
         ],
      ]
@@ -56,15 +56,15 @@ url=config.SUPPORT_GROUP
         ],
         [
             InlineKeyboardButton(
-                text="❣️ 𝐀𝐀𝐑𝐔 ❣️", url=f"https://t.me/Notanki_aaru"),
+                text="💖 𝐎ᴡɴᴇʀ 💖", user_id=OWNER),
             InlineKeyboardButton(
-                text="❤️ 𝐇ᴇᴀʀᴛ♡𝐇ᴀᴄᴋᴇʀ ❤️", url=f"https://t.me/Hacker_girl59"
+                text="💝 𝐂ᴏ 𝐎ᴡɴᴇʀ 💝", url=f"https://t.me/MR_RAJA_ROY"
             ),
         ],
         [
-            InlineKeyboardButton(text="💖 𝐎ᴡɴᴇʀ 💖", user_id=OWNER),
+            InlineKeyboardButton(text="❣️ 𝐀𝐀𝐑𝐔 ❣️", url=f"https://t.me/Notanki_aaru"),
             InlineKeyboardButton(
-                text="💝 𝐂ᴏ 𝐎ᴡɴᴇʀ 💝", url=f"https://t.me/MR_RAJA_ROY"
+                text="❤️ 𝐇ᴇᴀʀᴛ♡𝐇ᴀᴄᴋᴇʀ ❤️", url=f"https://t.me/Hacker_girl59"
             ),
         ],
         [
